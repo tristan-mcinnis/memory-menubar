@@ -1,0 +1,18 @@
+● Stopped · 1,167 frames · 153.0 MB · last tick 12m ago · Safari
+
+PERMISSIONS
+  accessibility: granted
+
+STORE
+  store:         /home/example/Library/Application Support/screenctx/context.sqlite3
+  schema:        v3
+  db size:       60.3 MB
+
+ACTIVITY
+  moments:       33,292
+  blocks:        1,553
+  unique lines:  170,405
+  frames:        1,167 (153.0 MB)
+  vision notes:  1
+  last tick:     2026-09-03 18:10:54  ax  Safari
+  tick outcomes: locked=86,416 ax=16,805 ocr=16,052 blackout=4,732 frame=1,167 skip=858 start=24 prune=17

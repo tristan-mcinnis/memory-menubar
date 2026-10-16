@@ -1,0 +1,7 @@
+● No store · run screenctx collect
+
+PERMISSIONS
+  accessibility: NOT granted
+
+STORE
+  store:         /home/example/Library/Application Support/screenctx/context.sqlite3  (not created yet)

@@ -1,0 +1,18 @@
+● Collecting · 1,168 frames · 153.2 MB · last tick just now · Quick Launch
+
+PERMISSIONS
+  accessibility: granted
+
+STORE
+  store:         /home/example/Library/Application Support/screenctx/context.sqlite3
+  schema:        v3
+  db size:       60.3 MB
+
+ACTIVITY
+  moments:       33,296
+  blocks:        1,554
+  unique lines:  170,423
+  frames:        1,168 (153.2 MB)
+  vision notes:  1
+  last tick:     2026-09-03 18:31:25  blackout  Quick Launch
+  tick outcomes: locked=86,416 ax=16,809 ocr=16,052 blackout=4,827 frame=1,168 skip=858 start=24 prune=17 sr-granted=1 protected=1

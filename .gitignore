@@ -1,0 +1,9 @@
+.build/
+.swiftpm/
+dist/
+*.xcuserstate
+.DS_Store
+.scrub-private
+*.sqlite3
+data/
+var/

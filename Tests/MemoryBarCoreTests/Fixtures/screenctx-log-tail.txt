@@ -1,0 +1,50 @@
+ity)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording NOT granted — text capture continues; OCR fallback and frames are off until it is enabled in System Settings → Privacy & Security → Screen Recording
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording NOT granted — text capture continues; OCR fallback and frames are off until it is enabled in System Settings → Privacy & Security → Screen Recording
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording NOT granted — text capture continues; OCR fallback and frames are off until it is enabled in System Settings → Privacy & Security → Screen Recording
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording NOT granted (SCK probe failed) — text capture continues; frames/OCR wait for the grant in System Settings → Privacy & Security → Screen Recording
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording NOT granted (SCK probe failed) — text capture continues; frames/OCR wait for the grant in System Settings → Privacy & Security → Screen Recording
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok) — frames active
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: waiting for Accessibility permission (System Settings → Privacy & Security → Accessibility)
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on
+screenctx: Screen Recording granted (SCK probe ok)
+screenctx collecting every 5s, ax-threshold 200, ocr on, frames on

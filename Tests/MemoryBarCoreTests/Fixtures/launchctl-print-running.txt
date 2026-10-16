@@ -1,0 +1,73 @@
+gui/501/com.tristan.screenctx = {
+	active count = 1
+	path = /home/example/Library/LaunchAgents/com.tristan.screenctx.plist
+	type = LaunchAgent
+	state = running
+
+	program = /home/example/.local/bin/screenctx
+	BTM uuid = 00000000-0000-0000-0000-000000000000
+	arguments = {
+		/home/example/.local/bin/screenctx
+		collect
+	}
+
+	stdout path = /home/example/Library/Logs/screenctx.log
+	stderr path = /home/example/Library/Logs/screenctx.log
+	inherited environment = {
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.AAAAAAAAAA/Listeners
+	}
+
+	default environment = {
+		PATH => /usr/bin:/bin:/usr/sbin:/sbin
+	}
+
+	environment = {
+		OSLogRateLimit => 64
+		XPC_SERVICE_NAME => com.tristan.screenctx
+	}
+
+	domain = gui/501 [100024]
+	asid = 100024
+	minimum runtime = 10
+	exit timeout = 5
+	runs = 18
+	pid = 12345
+	immediate reason = inefficient
+	forks = 0
+	execs = 1
+	initialized = 1
+	trampolined = 1
+	started suspended = 0
+	proxy started suspended = 0
+	checked allocations = 0 (queried = 1)
+	checked allocations reason = no host
+	checked allocations flags = 0x0
+	last terminating signal = Terminated: 15
+
+	resource coalition = {
+		ID = 1287
+		type = resource
+		state = active
+		active count = 1
+		name = com.tristan.screenctx
+	}
+
+	jetsam coalition = {
+		ID = 1288
+		type = jetsam
+		state = active
+		active count = 1
+		name = com.tristan.screenctx
+	}
+
+	spawn type = background (5)
+	jetsam priority = 40
+	jetsam memory limit (active) = (unlimited)
+	jetsam memory limit (inactive) = (unlimited)
+	jetsamproperties category = daemon
+	jetsam thread limit = 32
+	cpumon = default
+	job state = running
+
+	properties = keepalive | runatload | inferred program | managed LWCR | has LWCR
+}

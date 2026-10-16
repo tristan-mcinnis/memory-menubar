@@ -1,0 +1,16 @@
+● Stopped · 0 frames · 0.0 MB · no ticks yet
+
+PERMISSIONS
+  accessibility: granted
+
+STORE
+  store:         /home/example/Library/Application Support/screenctx/context.sqlite3
+  schema:        v3
+  db size:       0.1 MB
+
+ACTIVITY
+  moments:       0
+  blocks:        0
+  unique lines:  0
+  frames:        0 (0.0 MB)
+  vision notes:  0
