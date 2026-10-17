@@ -1,4 +1,5 @@
 import AppKit
+import HouseDesign
 
 /// The Status item component (design-system/DESIGN.md): one SF Symbol from
 /// the app-icon family, as a template image at `Control.statusGlyph`, medium

@@ -2,6 +2,8 @@ import AppKit
 import ServiceManagement
 import SwiftUI
 import MemoryBarCore
+import HouseDesign
+import HouseUIKit
 
 /// Memory has one settings pane, so the shared Slate shell is used at its
 /// smallest: a 220 px rail with a single row, a 60 px pane header, cards on

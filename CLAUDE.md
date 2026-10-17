@@ -52,13 +52,10 @@ core, against captured output in `Tests/MemoryBarCoreTests/Fixtures/`.
 
 ## Conventions
 
-- House design through the generated token file. `Sources/MemoryBar/
-  HouseDesign.swift` is a verbatim copy of `design-system/generated/
-  HouseDesign.swift`; never hand-edit it, never retype a value, and run `make
-  check-consumers` in the design-system repository after any token change.
-  `HouseUI.swift` and `MenuBarPanel.swift` are the Slate menu-bar kit, byte
-  copies of `design-system/kit/`; never hand-edit them. A fix lands in
-  design-system, then `make sync-kit` there copies it into every menu-bar app.
+- House design through the design-system package (`HouseDesign` tokens,
+  `HouseUIKit` Slate menu-bar kit), pinned in `Package.swift` by GitHub URL and
+  tag. Never retype a value. A fix lands in design-system and is released as a
+  tag; raise the `from:` pin here to take it.
   Memory's own panel code is `MenuBarPanelView.swift` and
   `MenuBarPanelController.swift`.
 - Both grants, Screen Recording and Accessibility, are read from the
@@ -138,8 +135,8 @@ core, against captured output in `Tests/MemoryBarCoreTests/Fixtures/`.
 
 ## Related repositories
 
-- `../design-system`: the rule (`DESIGN.md`) and the token generator. Its
-  `CONSUMERS` list already names this repo's copy.
+- `../design-system`: the rule (`DESIGN.md`), the token generator, and the
+  package this repo pins. Its `check-consumers` verifies the pin.
 - `../memory-screenctx`: the collector and its launchd agent. Memory reads its
   status and drives its job; it never edits its plist or its store.
 - `../memory-recall`: the CLI behind Capture, Search and Today. Memory reads

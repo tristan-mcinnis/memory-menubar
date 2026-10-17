@@ -142,11 +142,9 @@ panel: run `memory-bar --doctor` to see which.
 ## Design
 
 The look is the house system: `../design-system/DESIGN.md` is the rule,
-`Sources/MemoryBar/HouseDesign.swift` is a verbatim copy of the generated
-token file, and `make check-consumers` in that repository fails if this copy
-drifts. `Sources/MemoryBar/HouseUI.swift` and `MenuBarPanel.swift` are the Slate
-menu-bar kit, byte copies of `design-system/kit/` (`make sync-kit` there), so
-the menu bars are one look.
+the tokens (`HouseDesign`) and the Slate menu-bar kit (`HouseUIKit`) come from
+the design-system package, pinned in `Package.swift` by GitHub URL and tag, so
+the menu bars are one look and a fresh clone builds with no sibling folders.
 
 ## License
 

@@ -1,6 +1,7 @@
 import AppKit
 import SwiftUI
 import MemoryBarCore
+import HouseDesign
 
 // Offscreen render proof. `memory-bar --render-proof <dir>` draws every Slate
 // surface into PNGs without putting a window on screen, so the design can be

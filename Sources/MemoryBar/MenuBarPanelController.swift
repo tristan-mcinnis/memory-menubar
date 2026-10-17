@@ -1,4 +1,5 @@
 import AppKit
+import HouseUIKit
 
 extension PanelModel: MenuPanelModeling {}
 
@@ -22,7 +23,7 @@ final class MenuBarPanelController: MenuPanelController<MenuBarPanelView, PanelM
 
     /// The command chords are handled here rather than as SwiftUI shortcuts so
     /// they work identically whether or not a field has focus.
-    override func handle(_ key: KeyPress) -> Bool {
+    override func handle(_ key: PanelKeyPress) -> Bool {
         if key.flags.contains(.command) {
             switch key.characters?.lowercased() {
             case "n": model.beginCapture(); return true
