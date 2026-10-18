@@ -1,3 +1,5 @@
+> **Sunset 2026-10-18.** This project is no longer maintained and the repository is archived (read-only). Memory.app was the menu-bar face of the screen collector and recall. Unused, so it was removed from the author's Mac. The code stays here under its license for anyone who wants it.
+
 # Memory
 
 The menu-bar face of the memory layer on this Mac. One bookmark in the status
